@@ -325,13 +325,8 @@ button.btnMobile {
    margin: 0 auto;
    margin-top: -140px;
    padding: 0 95px;
-   transform: translateX(100%);
-   transition: all .4s ease-in-out;
 }
 
-.option.active-option {
-   transform: translateX(0);
-}
 
 .alloptions {
    width: 100%;
@@ -459,15 +454,6 @@ span.active {
 
 
 /* SECTION ABOUT START */
-.about {
-   transform: translateX(-100%);
-   transition: all .4s ease-in-out;
-}
-
-.about.active-about {
-   transform: translateX(0);
-}
-
 .about hr {
    width: 125px;
 }
@@ -550,15 +536,6 @@ button.btnMobile {
    flex-wrap: wrap;
 }
 
-.services {
-   transform: translateX(-100%);
-   transition: all .4s ease-in-out;
-}
-
-.services.active-services {
-   transform: translateX(0);
-}
-
 .service {
    width: 350px;
    margin-bottom: 30px;
@@ -595,15 +572,6 @@ button.btnMobile {
 /* SERVICES END */
 
 /* OUR WORKS START */
-.ourworks {
-   transform: translateX(100%);
-   transition: all .4s ease-in-out;
-}
-
-.ourworks.active-ourworks {
-   transform: translateX(0);
-}
-
 .ourworks hr {
    width: 140px;
 }
@@ -703,15 +671,6 @@ button.btnMobile {
 /* OUR WORKS END */
 
 /* CLIENT START */
-.client {
-   transform: translateX(-100%);
-   transition: all .4s ease-in-out;
-}
-
-.client.active-client {
-   transform: translateX(0);
-}
-
 .client-thumb {
    display: grid;
    grid-template-columns: repeat(4, 1fr);
@@ -748,15 +707,6 @@ button.btnMobile {
 /* CLIENT END */
 
 /* TESTIMONI START */
-.testimonial {
-   transform: translateX(100%);
-   transition: all .4s ease-in-out;
-}
-
-.testimonial.active-testimonial {
-   transform: translateX(0);
-}
-
 .testimoni {
    position: relative;
    left: 0;
@@ -859,15 +809,6 @@ button.btnMobile {
 /* TESTIMONI END */
 
 /* AWARDS START */
-.awards {
-   transform: translateX(-100%);
-   transition: all .4s ease-in-out;
-}
-
-.awards.active-awards {
-   transform: translateX(0);
-}
-
 .awards hr {
    width: 107px;
 }

@@ -28,49 +28,7 @@ window.addEventListener('scroll', function () {
         navbar.classList.remove('active-navbar');
     }
 
-    let wscroll = $(this).scrollTop();
 
-    if (wscroll > $('.option').offset().top - 400) {
-        $('.option').addClass('active-option');
-    } else {
-        $('.option').removeClass('active-option');
-    }
-
-    if (wscroll > $('.about').offset().top - 400) {
-        $('.about').addClass('active-about');
-    } else {
-        $('.about').removeClass('active-about');
-    }
-
-    if (wscroll > $('.services').offset().top - 400) {
-        $('.services').addClass('active-services');
-    } else {
-        $('.services').removeClass('active-services');
-    }
-
-    if (wscroll > $('.ourworks').offset().top - 400) {
-        $('.ourworks').addClass('active-ourworks');
-    } else {
-        $('.ourworks').removeClass('active-ourworks');
-    }
-
-    if (wscroll > $('.client').offset().top - 400) {
-        $('.client').addClass('active-client');
-    } else {
-        $('.client').removeClass('active-client');
-    }
-
-    if (wscroll > $('.testimonial').offset().top - 400) {
-        $('.testimonial').addClass('active-testimonial');
-    } else {
-        $('.testimonial').removeClass('active-testimonial');
-    }
-
-    if (wscroll > $('.awards').offset().top - 400) {
-        $('.awards').addClass('active-awards');
-    } else {
-        $('.awards').removeClass('active-awards');
-    }
 
 });
 
